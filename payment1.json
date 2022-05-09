@@ -1,0 +1,59 @@
+{
+    "entity": "event",
+    "account_id": "acc_JKmRB2c5lEizAq",
+    "event": "payment.authorized",
+    "contains": [
+        "payment"
+    ],
+    "payload": {
+        "payment": {
+            "entity": {
+                "id": "pay_JSkBlLmOdMq4xH",
+                "entity": "payment",
+                "amount": 2000,
+                "currency": "INR",
+                "status": "authorized",
+                "order_id": "order_JSkBCqNyjMAxgb",
+                "invoice_id": null,
+                "international": false,
+                "method": "card",
+                "amount_refunded": 0,
+                "refund_status": null,
+                "captured": false,
+                "description": "Thank you for your purchase.",
+                "card_id": "card_JSkBlP5Qidp8pS",
+                "card": {
+                    "id": "card_JSkBlP5Qidp8pS",
+                    "entity": "card",
+                    "name": "sds",
+                    "last4": "1111",
+                    "network": "Visa",
+                    "type": "debit",
+                    "issuer": null,
+                    "international": false,
+                    "emi": false,
+                    "sub_type": "consumer",
+                    "token_iin": null
+                },
+                "bank": null,
+                "wallet": null,
+                "vpa": null,
+                "email": "kediak32@gmail.com",
+                "contact": "+917003920639",
+                "notes": [],
+                "fee": null,
+                "tax": null,
+                "error_code": null,
+                "error_description": null,
+                "error_source": null,
+                "error_step": null,
+                "error_reason": null,
+                "acquirer_data": {
+                    "auth_code": "310702"
+                },
+                "created_at": 1652015230
+            }
+        }
+    },
+    "created_at": 1652015242
+}
